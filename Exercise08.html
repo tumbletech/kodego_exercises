@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 08-Learning HTML Forms</title>
+</head>
+<body>
+    <h1>Learning HTML Forms</h1>
+
+        <form>
+            <div>
+                <label>Full Name</label>    
+                <Input text>
+            </div>
+            <br>
+            <div>
+                <label>Password</label>     
+                <Input type="password" name="password" id="password">
+            </div>
+            <br>
+            <div>
+                <label>Email Address</label>
+                <Input type="text">
+            </div>
+            <br>
+            <div>
+                <label>Status</label>
+                <label for="Single">Single</label>
+                <Input type="radio" name="Status" value="Single" id="Single">
+                <label for="Married">Married</label>
+                <Input type="radio" name="Status" value="Married" id="Married">
+                <label for="Widowed">Widowed</label>
+                <Input type="radio" name="Status" value="Widowed" id="Widowed">
+            </div>
+            <br>
+            <div>
+                <label>Date of Birth</label>
+                <input type="date">
+            </div>
+            <br>
+            <div>
+                <label>Government Benefits</label>
+                <input type="checkbox">
+                <label>SSS</label>
+                <input type="checkbox">
+                <label>HDMF</label>
+                <input type="checkbox">
+                <label>Philhealth</label>      
+            </div>
+            <br>
+            <div>
+                <label>Preferred Schedule</label>
+                <input type="time">
+            </div>
+            <br>
+            <div>
+                <label for="Payment Options">Payout Options</label>
+                    <select id="Payment Options">
+                        <option value="Yearly">Yearly</option>
+                        <option value="Monthly">Monthly</option>
+                        <option value="Weekly">Weekly</option>
+                        <option value="Daily">Daily</option>
+                    </select>
+            </div>
+            <br>
+            <div>
+                <label>Internet Provider:</label>
+                <input type="text">
+            </div>
+            <br>
+            <div>
+                <label>Upload Photo</label>
+                <input type="file" name=upload id="uploadfile">
+            </div>
+            <br>
+            <div>
+                <label for="additional_info">Additional Information</label>
+                <textarea id="additional_info" name="additional_info" rows="5" cols="33"></textarea>
+            </div>
+            <br>
+            <button>Submit</button>
+        </form>
+
+    
+</body>
+</html>
